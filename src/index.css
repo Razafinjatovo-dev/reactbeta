@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+tr{
+  display: flex;
+  justify-content: space-around;
+}
+.task-container {
+  background-color: azure;
+  width: 40%;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.productTable-container {
+  background-color: cadetblue;
+}
+
+
+.productTable-container table {
+  width: 100%;
+}
+
+.fruitCategory-container {
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.productRow-container {
+  background-color: darksalmon;
 }
